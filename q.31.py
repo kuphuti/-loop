@@ -1,0 +1,9 @@
+b=1
+a=1
+sum=0
+while a<=5:
+    c=a*b
+    sum=sum+c
+    a=a+b
+    b=c
+    print(sum,end=" ")
